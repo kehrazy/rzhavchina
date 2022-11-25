@@ -61,6 +61,7 @@ fn replace_ident(ident: Ident) -> Option<TokenTree> {
         "внутрь" => "into",
         "внатуре" => "true",
         "считалочка" => "enum",
+        "аи32" => "i32",
 
         _ => &ident_str,
     };
